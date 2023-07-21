@@ -1,0 +1,25 @@
+let tuples = (20, 200,30)
+let (pushUps, squats, pullUps) = tuples
+print(tuples)
+
+print (20 + pushUps)
+print (200 + squats)
+print (30 + pullUps)
+
+tuples.0
+tuples.1
+tuples.2
+
+let tuple = (pushUps:20, squats: 200, pullUps: 30)
+
+tuple.pullUps
+tuple.pushUps
+tuple.squats
+
+let tuples1 = (10, 100, 15)
+let (push, squat, pull) = tuples1
+print(tuples1)
+
+let AlexStreight = (otszimaniya:20,prisedaniya: 200, podtyagivaniya:30)
+var RuslanStreight = (otszimaniya:25, prisedaniya:212, podtyagivaniya:12)
+RuslanStreight = AlexStreight
