@@ -1,0 +1,11 @@
+let redColor : String = "red"
+let blueColor = "blue"
+let purpleColor = "purple"
+
+var color = "black"
+
+color = redColor
+ 
+print(color)
+
+print("red color value = \(redColor) \nblue color value = \(blueColor)")
