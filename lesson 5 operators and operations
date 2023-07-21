@@ -1,0 +1,86 @@
+
+//let a = 12
+//let b = 34
+//let c = a + b
+
+//print ("\(a) + \(b) =\(c)")
+
+//let result = " \(a) + \(b) =\(c)"
+
+print (result)
+
+//let d = a - b
+
+let m = 10
+let n = 4
+//% - остаток от целочисленного деления
+m % n
+// школьники делят яблоки лежащие в корзине, Требуется посчитать, сколько яблок достанется каждому и сколько останется в корзине.
+let apples = 35
+let students = 8
+let applePerStudents = apples / students
+let applesInBasket = apples % students
+
+//let number = 10
+//number % 2
+
+let k = 928
+
+let a = 9
+let b = 2
+let c = 8
+let o = a + b + c
+let result = " \(a) + \(b) + \(c) = \(o)"
+ print (result)
+
+// Составные операторы присваивания
+// += -= *= /=
+var number = 15
+number = number + 8 // number += 8 - это эквивалентно
+print(number)
+
+//Операторы сравнения
+// < > <= >= != ==  операторы сравнения (всегда возвращают Bool)
+
+
+let isEqual = 15 == 8
+
+print(isEqual)
+
+
+//Операторы диапазона
+
+// ... ..<
+2...8
+2..<7
+
+//Логические операторы
+//!(выражение) - не
+//let isEmpty = true
+//let full = !empty
+//&& - и
+// || - или
+
+//1. рост больше 140
+//2.возраст больше 12 лет
+let height = 150
+let age = 13
+
+ let isGoToAttraction = height > 140 && age > 12
+
+// || - или
+// Покупка. Мы должны указать либо email, либо телефон
+
+let phone = "999999"
+let email = "" //mail
+
+
+
+let isCanBuy = phone.count > 0 || email.count > 0
+
+//Тернарный оператор
+//(условие -> Bool) ? (действие, если условие true) : (Действие, если false)
+
+let isCanByeBeer = age >= 18 ? "Бухай" : "Пива не будет"
+print (isCanByeBeer)
+
