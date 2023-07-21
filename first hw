@@ -1,0 +1,26 @@
+let person1 = "Sasha"
+let person2 = "Dasha"
+let person3 = "Ruslan"
+let person4 = "Roman"
+let secondNamePerson1 = "Ladygin"
+let secondNamePerson2 = "Potehina"
+let secondNamePerson3 = "Ahriev"
+let secondNamePerson4 = "Tishenko"
+let agePerson1 = "25"
+let agePerson2 = "26"
+let agePerson3 = "26"
+let agePerson4 = "29"
+let weightperson1 = "100"
+let weightPerson2 = "55"
+let weightPerson3 = "100"
+let weightPerson4 = "110"
+let heightPerson1 = "186"
+let heightPerson2 = "167"
+let heightPerson3 = "184"
+let heightPerson4 = "185"
+print("person1 = \(person1)\nsecondNamePerson1 = \(secondNamePerson1)\nagePerson1 = \(agePerson1)\nweightPerson1 = \(weightperson1)\nheightPerson1 = \(heightPerson1)")
+print("person2 =\(person2)\nsecondNamePerson2 = \(secondNamePerson2)\nagePerson2 =\(agePerson2)\nweightPerson2 =\(weightPerson2) \nheightPerson2 =\(heightPerson2)")
+print("person3= \(person3) \nsecondNamePerson3 =\(secondNamePerson3) \nagePerson3 =\(agePerson3)\nweightPerson3 =\(weightPerson3) \nheightPerson3 =\(heightPerson3)")
+print("person4 =\(person4) \nsecondNamePerson4 =\(secondNamePerson4) \nagePerson4 =\(agePerson4) \nheightPerson4 =\(heightPerson4) \nweightPerson4 =\(weightPerson4)")
+
+
