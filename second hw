@@ -1,0 +1,24 @@
+Int8.min
+Int8.max
+UInt8.min
+UInt8.max
+print ("Int8.min =\(-128)")
+print ("Int8.max =\(127)")
+print ("UInt8.min =\(0)")
+print ("UInt8.max =\(255)")
+
+let a : Int = 10
+let b : Double = 10.5
+let c : Float =  10.1
+
+let sumI = Int (Double(a) + b + Double(c))
+let sumD = Double(a) + b + Double(c)
+let sumF = Float(a) + Float(b) + c
+
+
+if  Double(sumI) > (sumD) {
+    print("horosho")
+}else {
+    print("ploho")
+}
+    
